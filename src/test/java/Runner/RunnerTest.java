@@ -13,7 +13,8 @@ import org.junit.runner.RunWith;
         publish = true,
         plugin = {
                 "pretty",
-                "html:target/cucumber-report.html"
+                "html:target/cucumber-report.html",
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         }
 )
 
